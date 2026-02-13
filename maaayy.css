@@ -1,0 +1,307 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+    background-color: #F0F8FF;
+	overflow-x: hidden;
+}
+#home{
+    margin-top: 22px;	
+	
+	
+}
+button{
+    color: #1E0C77;
+    background-color: #FF7330;	
+}
+.logo{
+    margin-left: 27%;
+    margin-bottom: -73px;
+    width: 10%;
+}
+.logobutt{
+    margin-left: 9%;
+    width: 27%;
+    margin-bottom: -14%;
+    border: 19px solid #F0F8FF;
+    padding-top: 26px;
+    padding-right: 26px;
+    padding-bottom: 26px;
+    padding-left: 26px;
+    border-radius: 27px;
+}
+#comm{
+    margin-bottom: 56%;
+    margin-top: -67%;
+}
+.Cabeza {
+    position: static;
+    width: 100%;
+    margin-right: -59px;
+    margin-bottom: -57px;
+    margin-left: -59px;
+    background-color: #FFC367;
+    padding-top: 76px;
+    padding-right: 102px;
+    margin-top: -23px;
+    padding-bottom: 13px;
+}
+
+.pelo{
+    padding-top: 23px;
+    padding-right: 23px;
+    padding-bottom: 23px;
+    padding-left: 23px;
+    float: right;
+    overflow-x: hidden;
+    font-family: nexa-text, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: #0050FF;
+    background-color: #FFC367;
+    margin-top: -66px;
+    text-align: right;
+}
+#Manhatta{
+    margin-left: -30px;
+    margin-top: 16px;
+}
+#aid{
+    color: #FF7330;
+    margin-top: -19px;
+    margin-bottom: -26px;
+}
+
+#involv{
+    color: #FF7330;
+    margin-top: 70px;
+}
+#smith{
+    margin-left: -8px;
+    margin-top: -7px;
+}
+#event{
+    margin-top: -10px;
+    margin-bottom: 59px;
+}
+.container .text-center{
+    padding-top: 39px;
+    padding-right: 39px;
+    padding-bottom: 39px;
+    padding-left: 39px;
+    width: 25%;
+    display: flex;
+}
+
+.row{
+    border-top-width: medium;
+    display: flex;
+    float: left;
+    margin-top: -61px;
+    margin-bottom: 28px;
+}
+.g-2{
+     width: 200%;
+    align-items: center;
+    justify-content: center;
+    margin-right: -65px;
+	animation: carousel 38s infinite linear; 
+	column-gap: normal;
+	
+	 }
+@keyframes carousel {
+	from {
+		transform: translateX(0%);}
+  to {
+	  transform: translateX(-75%); }}
+.col-6{
+    flex-row: 1;
+    border-style: solid;
+    border-color: #FF7330;
+    border-radius: 50px;
+    padding-top: 35px;
+    padding-right: 10px;
+    padding-left: 17px;
+    margin-right: 22px;
+    padding-bottom: 35px;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 12%;
+    font-family: nexa, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+	flex-shrink: 0;
+}
+.g-2:hover{
+animation-play-state: paused;	
+}
+
+.p-3{
+font-family: area-inktrap-extended, sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+header{
+    font-family: stolzl, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: xxx-large;
+    margin-top: 53px;
+    margin-left: 11px;
+    margin-bottom: 22px;
+}
+p{
+	font-family: area-inktrap, sans-serif;
+font-weight: 600;
+font-style: normal;
+}
+.h{
+    font-family: area-inktrap-light, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    padding-bottom: 0px;
+}
+#browse{
+    width: 100%;
+    margin-left: -14px;
+    border-bottom: 3px solid #FF7330;
+    border-top: 3px solid #FF7330;
+    background-color: rgba(200,126,88,0.15);
+}
+.search{
+    color: #1E0C77;
+    padding-top: 0px;
+    padding-bottom: 6px;	
+}
+footer a{
+    text-decoration: none;	
+}
+footer a:hover{
+color: #FFC367;	
+}
+body a:hover{
+    color: #FF7330;
+}
+body a{
+	text-decoration: none;
+}
+body nav a{
+    color: rgba(0,80,255,1.00);
+}
+#DonateNav{
+    background-color: #FF7330;
+    border-radius: 48px;
+    font-family: area-inktrap-extended-light, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    border-color: hsla(0,0%,0%,0.00);
+    margin-left: 13%;
+    margin-bottom: -33%;
+    margin-top: -17px;
+}
+.crl-btn{
+    border-radius: 99px;
+    background-color: rgba(0,0,0,0.00);
+    padding-top: 6px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    margin-left: 90%;
+    margin-bottom: 4%;
+}
+.cardpf{
+    border-radius: 50px 50px 8px 8px;
+    margin-top: -36px;
+    margin-left: -18px;
+    width: 109.5%;
+}
+#actgov{
+    font-size: x-large;
+    margin-top: -5px;
+    margin-bottom: 85px;
+}
+body ul li {
+    font-family: nexa-text, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    overflow-x: hidden;
+}
+.pic{
+    width: 103%;
+    margin-left: -1%;
+}
+#Bronx {
+    margin-left: -11px;
+}
+
+#myBtn{
+    font-family: area-inktrap, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    border-radius: 47px 49px 47px 47px;
+    padding-top: 29px;
+    padding-right: 29px;
+    padding-bottom: 29px;
+    padding-left: 29px;
+    text-align: center;
+    margin-left: 43%;
+    border-style: solid;
+    border-color: #1E0C77;
+    margin-bottom: -16px;
+}
+
+
+footer{
+    width: 102%;
+    clear: both;
+    position: relative;
+    background-color: #0050FF;
+    margin-left: -20px;
+    margin-top: 78px;
+    padding-top: 94px;
+    padding-bottom: 187px;
+    margin-bottom: -93px;
+}
+.low {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 60px 60px;
+    background-color: #0050FF;
+    margin-left: 909px;
+    margin-top: -205px;
+    padding-left: 0px;
+}
+.buttsources{
+    font-family: area-inktrap, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    padding-left: 19px;
+    margin-left: -21px;
+    background-color: #0050FF;
+    padding-top: 25px;
+    margin-top: 38px;
+    color: #F0F8FF;
+    font-size: x-large;
+}
+.buttsources a {
+    color: #F0F8FF;
+}
+.buttsources a:hover{
+	color: #FFC367;
+}
+#site {
+    margin-left: 648px;
+    margin-bottom: -75px;
+    margin-top: 12px;
+    color: rgba(30,12,119,1.00);
+    font-size: large;
+}
+#site a {
+    color: #1E0C77;
+}
+#site a:hover{
+color: #FFC367;
+}
